@@ -1,0 +1,83 @@
+ * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .col-1 {
+    display: flex;
+    background: #D7E8D4;
+    flex: 1;
+    max-width: 7%;
+    justify-content:center;
+      padding: 1.875rem;
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 10;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ExVLz49TtNhSdLbIKNzKPaWbiL36BXuv2EJxRldmDXtoJRx4");  
+    
+  }
+  .content {
+    display: flex;
+    
+    justify-content: center;
+  }
+  .content > article {
+    flex: 4;
+    min-height: 60vh;
+      background: white;
+      
+  }
+
+header{
+    height: 50vh;
+}
+   footer {
+    
+    background: #666ade;
+    height: 30vh;
+    
+    
+  }
+  header, footer, article, nav {
+    padding: 1em;
+  }
+.nav-items{
+  justify-content: center;
+    align-items: center;
+   
+}
+.page_content {
+    display: flex;
+    flex-grow:1;
+    justify-content:center;
+      align-items: center;
+}
+    page_content_banners{
+      display: flex; 
+      
+    }
+    page_content_gallery {
+    justify-content: center;
+      text-align:center;
+    }
+}
+.wrapper {
+  display: flex;
+    flex-direction: row;
+}
+.wrapper > div {
+  font-size: 4vh;
+  color: white;
+  background: gray;
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1;
+}
+
